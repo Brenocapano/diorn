@@ -29,7 +29,7 @@ no AndroidManifest para conseguir realizar abertura de links. Implementação si
 - Criação do projeto 
   - Uso do React Native CLI
   - Estrutura de pasta
-- Projeto Profile   
+- Project Profile   
   - View
   - Text
   - SafeAreaView
