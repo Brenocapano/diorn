@@ -1,6 +1,14 @@
 # Introdução ao React Native - DIO
 ![image](https://user-images.githubusercontent.com/29673433/175755673-0a57bfe5-1f87-4329-a698-3dea15cbe688.png)
 
+# Aplicação 
+- Projeto simples feito em react-native para a implementação de botões funcionais, sendo utilizada adição de código nativo
+no ANdroidManifest para conseguir realizar abertura de links. Implementação simples apenas para fins de aprendizado.
+
+
+
+
+
 
 # Conteúdo
 - O que é react-native
@@ -23,7 +31,7 @@
   - Estrutura de pasta
 - Projeto Profile   
   - View
-  - Tesxt
+  - Text
   - SafeAreaView
   - Image
   - Flex-box
@@ -31,4 +39,5 @@
   - Preessable
   - Linking API
   - Add código nativo no androidManifest.xml para abrir links
+  
   
