@@ -3,7 +3,7 @@
 
 # Aplicação 
 - Projeto simples feito em react-native para a implementação de botões funcionais, sendo utilizada adição de código nativo
-no ANdroidManifest para conseguir realizar abertura de links. Implementação simples apenas para fins de aprendizado.
+no AndroidManifest para conseguir realizar abertura de links. Implementação simples apenas para fins de aprendizado.
 
 
 
