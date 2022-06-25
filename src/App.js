@@ -35,9 +35,9 @@ const App = () => {
                 <Text accessibilityLabel='nickname breno.capano'
                     style={[style.defaulText, style.nickName]}>breno.capano
                 </Text>
-                <Text accessibilityLabel='descrição Estudante de Análise e Desenvolvimento de Sistemaas | Analista de Markegin |
+                <Text accessibilityLabel='descrição Estudante de Análise e Desenvolvimento de Sistemaas | Analista de Marketing |
              Dev Frontend'
-                    style={[style.defaulText, style.description]}>Estudante de Análise e Desenvolvimento de Sistemaas | Analista de Markegin |
+                    style={[style.defaulText, style.description]}>Estudante de Análise e Desenvolvimento de Sistemaas | Analista de Marketing |
                     Dev Frontend
                 </Text>
                 <Pressable onPress={() => {
