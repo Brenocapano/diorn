@@ -1,5 +1,6 @@
 # Introdução ao React Native - DIO
-![image](https://user-images.githubusercontent.com/29673433/175755673-0a57bfe5-1f87-4329-a698-3dea15cbe688.png)
+![image](https://user-images.githubusercontent.com/29673433/175837015-98d1bcf6-25db-4e58-9edb-99933a501789.png)
+
 
 # Aplicação 
 - Projeto simples feito em react-native para a implementação de botões funcionais, sendo utilizada adição de código nativo
