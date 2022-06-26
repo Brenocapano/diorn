@@ -12,13 +12,16 @@ import {
 } from 'react-native';
 const colorGithub = '#010409';
 const colorFontGithub = '#C9D1D9';
+const colorButtonInstagram = '#7f0804';
 const colorDarkFontGithub = '#4F565E';
 const colorButtonLinkedin = '#0A66C2';
 const urlGithub = 'https://github.com/Brenocapano';
 const urlLinkedin = 'https://www.linkedin.com/in/breno-capano/';
+const urlInstagram = 'https://www.instagram.com/breno.capano/';
 const profilePicture = 'https://avatars.githubusercontent.com/u/29673433?v=4';
-const iconGithub = 'https://cdn-icons.flaticon.com/png/128/3291/premium/3291695.png?token=exp=1656111542~hmac=acf1554d5db8da6bf047603e7bc5957b';
-const iconLinkedin = 'https://cdn-icons.flaticon.com/png/128/3536/premium/3536505.png?token=exp=1656117493~hmac=eb062f4be381a63d40f5d41a030ea7f3';
+const iconInstagram = 'https://cdn-icons-png.flaticon.com/512/2111/2111463.png';
+const iconGithub = 'https://cdn-icons-png.flaticon.com/512/38/38401.png';
+const iconLinkedin = 'https://cdn-icons.flaticon.com/png/512/3536/premium/3536505.png?token=exp=1656284492~hmac=36785df587ac3a43508ecf6659940f52';
 const App = () => {
 
     return (
@@ -62,6 +65,18 @@ const App = () => {
                             source={{ uri: iconLinkedin }} />
                         <Text style={[style.defaulText, style.textButton]}>
                             Linkedin
+                        </Text>
+                    </View>
+                </Pressable>
+                <Pressable onPress={() => {
+                    Linking.openURL(urlInstagram);
+                }}>
+                    <View style={[style.buttonInstagram, style.colorButtonInstagram]}>
+                        <Image accessibilityLabel='icone linkedin'
+                            style={style.iconeInstagram}
+                            source={{ uri: iconInstagram }} />
+                        <Text style={[style.defaulText, style.textButton]}>
+                            Instagram
                         </Text>
                     </View>
                 </Pressable>
@@ -139,19 +154,41 @@ const style = StyleSheet.create({
 
     },
     iconeGithub: {
-        height: 30,
-        width: 30,
-        borderRadius: 3,
+        height: 40,
+        width: 40,
+        borderRadius: 4,
         marginRight: 10,
 
     },
     iconeLinkedin: {
-        height: 30,
-        width: 30,
-        borderRadius: 3,
+        height: 40,
+        width: 40,
+        borderRadius: 4,
         marginRight: 10,
+
+    },
+    iconeInstagram: {
+        height: 40,
+        width: 40,
+        borderRadius: 4,
+        marginRight: 10,
+
+    },
+    buttonInstagram: {
+        marginTop: 20,
+        backgroundColor: colorButtonInstagram,
+        borderRadius: 10,
+        padding: 20,
+        height: 60,
+        width: 150,
+        flexDirection: 'row',
+        alignItems: 'center',
+
 
     }
 
 
+
+
 })
+
